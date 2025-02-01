@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  /* Adjust width as needed */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.5);
+  /* Semi-transparent thumb */
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.7);
+  /* Darker on hover */
+}
