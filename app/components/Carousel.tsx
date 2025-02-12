@@ -71,14 +71,14 @@ const Carousel = () => {
       <div className="absolute inset-0 ">
         <button
           onClick={previousImage}
-          className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer z-20"
+          className="hidden md:block absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer z-20"
           aria-label="Previous image"
         >
           <ChevronLeft className="h-6 w-6" />
         </button>
         <button
           onClick={nextImage}
-          className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer z-20"
+          className="hidden md:block absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer z-20"
           aria-label="Next image"
         >
           <ChevronRight className="h-6 w-6" />
