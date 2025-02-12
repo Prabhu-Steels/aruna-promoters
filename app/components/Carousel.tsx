@@ -68,7 +68,7 @@ const Carousel = () => {
         ))}
       </div>
 
-      <div className="absolute inset-0 z-10">
+      <div className="absolute inset-0 ">
         <button
           onClick={previousImage}
           className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer z-20"
